@@ -1,15 +1,23 @@
 /*
     ESTILO PARA UNA PÁGINA DE FINANZAS
 */
-
-@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+@import "https://fonts.googleapis.com/css?family=Caveat";
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Caveat', cursive;
     background: #f4f4f4;
     color: #333;
 }
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #020a1c;
+    font-size: 2em;
+    /* Ajusta el tamaño de la fuente según sea necesario */
+}
 p {
     font-family: 'Poppins', sans-serif;
     font-size: 1.1em;
