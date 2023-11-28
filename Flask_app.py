@@ -10,6 +10,10 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
+@app.route('/nosotros')
+def nosotros():
+    return render_template('info.html')
+
 @app.route('/fondos-mutuos')
 def fondos_mutuos():
     return render_template('index.html')
